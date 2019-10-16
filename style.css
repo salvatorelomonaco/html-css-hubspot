@@ -7,16 +7,19 @@
 body {
     background-color: #f5f8fa;
     font-family: 'Roboto', sans-serif;
+    color: #33475b;
 }
 
 header {
     width: 100%;
+    position: relative;
 }
 
 #container-first-navbar {
     background-color: #f5f8fa;
-    border: 1px solid #cbd6e2;
+    border-bottom: 1px solid #cbd6e2;
     width: 100%;
+    position: fixed;
 }
 
 #first-navbar {
@@ -83,6 +86,7 @@ header {
 #container-second-navbar {
     background-color: white;
     width: 100%;
+    padding-top: 70px;
 }
 
 #second-navbar {
@@ -131,7 +135,6 @@ header {
 
 #introduction-jumbo {
     width: 40%;
-    color: #33475b;
 }
 
 h1 {
@@ -167,4 +170,114 @@ h1 {
     content: '';
     clear: both;
     display: table;
+}
+
+main {
+    width: 100%;
+}
+
+.container-part1 {
+    margin: 80px auto;
+    width: 71%;
+    text-align: center;
+    margin-bottom: 120px
+}
+
+.container-part1 img {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.container-part1 h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.container-part1 p {
+    font-size: 17px;
+}
+
+#CMR {
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    padding: 40px 100px;
+}
+
+#marketing {
+    width: 31%;
+    background-color: white;
+    display: inline-block;
+    padding: 27px;
+    border-radius: 3px;
+}
+
+#sales {
+    width: 31%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white;
+    display: inline-block;
+    padding: 27px;
+    border-radius: 3px;
+}
+
+#service {
+    width: 31%;
+    background-color: white;
+    display: inline-block;
+    padding: 27px;
+    border-radius: 3px;
+}
+
+#marketing img, #sales img, #service img {
+    height: 150px;
+}
+
+#marketing h3, #sales h3, #service h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+#marketing p, #sales p, #service p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 23px;
+}
+
+#marketing hr, #sales hr, #service hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #33475b;
+}
+
+h5 {
+    margin-bottom: 20px;
+}
+
+#marketing span, #sales span, #service span {
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.fa-check-circle {
+    color: #ff7a59;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#marketing button, #sales button, #service button {
+    font-weight: 600;
+    color: white;
+    background-color: #ff7a59;
+    border-radius: 3px;
+    padding: 10px 25px;
+    border: 1px solid #ff7a59;
+    font-size: 15px;
+    margin-top: 20px;
 }

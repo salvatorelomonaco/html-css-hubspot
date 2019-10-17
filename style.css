@@ -195,6 +195,7 @@ main {
 
 .container-part1 p {
     font-size: 17px;
+    line-height: 25px;
 }
 
 #CMR {
@@ -332,32 +333,157 @@ h5 {
     text-align: center;
     width: 60%;
     margin: auto;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 #part2-text h2 {
     font-size: 40px;
 }
 
+h2 span {
+    font-size: 15px;
+    vertical-align: middle;
+    font-weight: 100;
+}
+
 #part2-text p {
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 40px;
+    line-height: 30px;
 }
 
 #content-part2 {
-    width: 100%;
-    padding-bottom: 120px;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
 }
 
 .boxes {
     text-align: center;
-    padding: 20px;
-    display: inline-block;
-    border: 1px solid white;
-    margin: auto;
+    padding: 30px;
+    width: 25%;
+    float: left;
+    height: 200px;
+}
+
+.boxes {
+    font-size: 30px;
+}
+
+.boxes img {
+    margin-bottom: 10px;
 }
 
 .boxes p {
-    font-size: 9px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.first, .second, .third, .fourth {
+    border-bottom: 1px solid white;
+}
+
+.first, .second, .third {
+    border-right: 1px solid white;
+}
+
+.fifth, .sixth, .seventh {
+    border-right: 1px solid white;
+}
+
+/*** Container part 3 ***/
+
+#container-part3 {
+    background-color: white;
+    width: 100%;
+}
+
+#container-sponsor {
+    margin: auto;
+    width: 71%;
+    padding-top: 120px;
+}
+
+.sponsor-numbers {
+    width: 30%;
+    float: left;
+}
+
+.sponsor-numbers h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.sponsor-numbers p {
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.sponsor-image {
+    width: 70%;
+    float: right;
+    padding-left: 70px;
+}
+
+.sponsor-image img {
+    margin-bottom: 30px;
+    padding-left: 34px;
+}
+
+#atlassian, #doordash, #wistia {
+    height: 15px;
+}
+
+#g2crowd, #purple, #subaro, #vmware {
+    height: 30px;
+}
+
+#classpass {
+    height: 50px;
+}
+
+.startgrowing {
+    width: 80%;
+    margin: 130px auto;
+    padding-bottom: 100px;
+}
+
+#startgrowing-text {
+    width: 40%;
+    display: inline-block;
+}
+
+#startgrowing-text h3 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+#startgrowing-text p {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+#startgrowing-text button {
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    color: white;
+    padding: 25px 35px;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#startgrowing-img {
+    width: 59%;
+    display: inline-block;
+    padding-left: 250px;
+}
+
+#startgrowing-img img {
+    height: 400px;
 }

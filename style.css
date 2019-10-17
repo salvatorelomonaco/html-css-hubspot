@@ -294,7 +294,7 @@ main {
     color: #33475b;
 }
 
-h5 {
+.container-part1 h5 {
     margin-bottom: 20px;
     font-size: 15px;
 }
@@ -447,8 +447,9 @@ h2 span {
 
 .startgrowing {
     width: 80%;
-    margin: 130px auto;
+    margin: 0 auto;
     padding-bottom: 100px;
+    padding-top: 120px;
 }
 
 #startgrowing-text {
@@ -486,4 +487,52 @@ h2 span {
 
 #startgrowing-img img {
     height: 400px;
+}
+
+footer {
+    background-color: #33475b;
+    width: 100%;
+    height: 500px;
+}
+
+#container-footer {
+    width: 80%;
+    padding-top: 80px;
+    margin: auto;
+}
+
+.information {
+    color: white;
+    float: left;
+    width: 25%;
+    line-height: 40px;
+}
+
+.information span {
+    display: block;
+}
+
+.information h5 {
+    font-size: 17px;
+}
+
+.information a {
+    text-decoration: none;
+    color: #cbd6da;
+    font-size: 15px;
+}
+
+.information .fa-sort-down {
+    color: white;
+    font-size: 25px;
+}
+
+.information button {
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px 17px;
+    color: #33475b;
+    font-size: 12px;
+    background-color: white;
 }

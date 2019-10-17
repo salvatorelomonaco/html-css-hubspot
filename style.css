@@ -14,10 +14,14 @@ button {
     cursor: pointer;
 }
 
+/*** Header ***/
+
 header {
     width: 100%;
     position: relative;
 }
+
+/*** First navbar ***/
 
 #container-first-navbar {
     background-color: #f5f8fa;
@@ -96,6 +100,8 @@ header {
     background-color: rgba(255,122,89,0.8)
 }
 
+/*** Second navbar ***/
+
 #container-second-navbar {
     background-color: white;
     width: 100%;
@@ -132,6 +138,36 @@ header {
     font-size: 16px;
     font-weight: bolder;
 }
+
+/*** Third bar ***/
+
+#container-third-bar {
+    width: 100%;
+    background-image: linear-gradient(45deg, #f2547d, #f2545b);
+    text-align: center;
+}
+
+#container-third-bar span {
+    color: white;
+    margin: auto;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#container-third-bar button {
+    background-color: white;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 12px 21px;
+    cursor: pointer;
+    border: 0 solid white;
+    font-weight: bold;
+    color: #33475b;
+}
+
+/*** Jumbotron ***/
 
 #container-jumbotron {
     background-image: url("https://i.postimg.cc/W4tGDrzm/Immagine.png");
@@ -189,9 +225,13 @@ h1 {
     display: table;
 }
 
+/*** Main ***/
+
 main {
     width: 100%;
 }
+
+/*** First content ***/
 
 .container-part1 {
     margin: 80px auto;
@@ -266,6 +306,13 @@ main {
     margin-bottom: 25px;
 }
 
+#CMR-text span {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+/*** Aside left, right and center ***/
+
 #marketing {
     width: 31%;
     background-color: white;
@@ -331,6 +378,7 @@ main {
     color: #ff7a59;
     margin-right: 10px;
     font-size: 20px;
+    vertical-align: middle;
 }
 
 #marketing button, #sales button, #service button {
@@ -347,6 +395,8 @@ main {
 #marketing button:hover, #sales button:hover, #service button:hover {
     background-color: rgba(255,122,89,0.8)
 }
+
+/*** Second content ***/
 
 #container-part2 {
     background-color: #00adb5;
@@ -419,7 +469,7 @@ h2 span {
     border-right: 1px solid white;
 }
 
-/*** Container part 3 ***/
+/*** Third content ***/
 
 #container-part3 {
     background-color: white;
@@ -470,6 +520,8 @@ h2 span {
     height: 50px;
 }
 
+/*** Fourth content ***/
+
 .startgrowing {
     width: 80%;
     margin: 0 auto;
@@ -517,6 +569,25 @@ h2 span {
 #startgrowing-img img {
     height: 400px;
 }
+
+/*** Support chat ***/
+
+#support-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #7c98b6;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#support-chat i {
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+}
+
+/*** Footer ***/
 
 footer {
     background-color: #33475b;

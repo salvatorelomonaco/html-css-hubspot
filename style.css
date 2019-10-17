@@ -202,7 +202,46 @@ main {
     margin-top: 50px;
     border-radius: 3px;
     margin-bottom: 40px;
-    padding: 40px 100px;
+    padding: 30px 90px;
+    text-align: left;
+    display: block;
+}
+
+#CMR img {
+    height: 150px;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+#CMR button {
+    font-weight: 600;
+    color: white;
+    background-color: #ff7a59;
+    border-radius: 3px;
+    padding: 10px 25px;
+    border: 1px solid #ff7a59;
+    font-size: 15px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 65px;
+}
+
+#CMR-text {
+    float: right;
+    width: 60%;
+    padding-top: 17px;
+    padding-left: 15px;
+}
+
+#CMR-text h3 {
+    font-size: 22px;
+    padding-bottom: 22px;
+}
+
+#CMR-text p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 25px;
 }
 
 #marketing {
@@ -256,6 +295,7 @@ main {
 
 h5 {
     margin-bottom: 20px;
+    font-size: 15px;
 }
 
 #marketing span, #sales span, #service span {
@@ -280,4 +320,44 @@ h5 {
     border: 1px solid #ff7a59;
     font-size: 15px;
     margin-top: 20px;
+}
+
+#container-part2 {
+    background-color: #00adb5;
+    color: white;
+    width: 100%;
+}
+
+#part2-text {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 120px;
+}
+
+#part2-text h2 {
+    font-size: 40px;
+}
+
+#part2-text p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#content-part2 {
+    width: 100%;
+    padding-bottom: 120px;
+}
+
+.boxes {
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.boxes p {
+    font-size: 9px;
 }

@@ -10,6 +10,10 @@ body {
     color: #33475b;
 }
 
+button {
+    cursor: pointer;
+}
+
 header {
     width: 100%;
     position: relative;
@@ -61,6 +65,7 @@ header {
 .fa-search {
     color: #3cb8cc;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .first-navbar-right button {
@@ -77,10 +82,18 @@ header {
     margin-right: 5px;
 }
 
+#login:hover {
+    background-color: rgba(255,122,89,0.1)
+}
+
 #hubspot {
-    border: 1px solid #ff7a59;
+    border: 0 solid #ff7a59;
     background-color: #ff7a59;
     color: white;
+}
+
+#hubspot:hover {
+    background-color: rgba(255,122,89,0.8)
 }
 
 #container-second-navbar {
@@ -120,7 +133,7 @@ header {
     font-weight: bolder;
 }
 
-#container-jumbo {
+#container-jumbotron {
     background-image: url("https://i.postimg.cc/W4tGDrzm/Immagine.png");
     height: 650px;
     background-repeat: no-repeat;
@@ -128,12 +141,12 @@ header {
     background-position: center;
 }
 
-#jumbo {
+#jumbotron {
     width: 80%;
     margin: auto;
 }
 
-#introduction-jumbo {
+#introduction-jumbotron {
     width: 40%;
 }
 
@@ -143,15 +156,15 @@ h1 {
     padding-bottom: 30px;
 }
 
-#introduction-jumbo p {
+#introduction-jumbotron p {
     font-size: 17px;
     font-weight: 100;
     padding-bottom: 30px;
     line-height: 25px;
 }
 
-#introduction-jumbo button {
-    border: 1px solid #ff7a59;
+#introduction-jumbotron button {
+    border: 0 solid #ff7a59;
     background-color: #ff7a59;
     color: white;
     padding: 25px 35px;
@@ -160,7 +173,11 @@ h1 {
     font-weight: 600;
 }
 
-#introduction-jumbo p:last-child {
+#introduction-jumbotron button:hover {
+    background-color: rgba(255,122,89,0.8)
+}
+
+#introduction-jumbotron p:last-child {
     font-size: 12px;
     line-height: 20px;
     padding-top: 20px;
@@ -220,11 +237,15 @@ main {
     background-color: #ff7a59;
     border-radius: 3px;
     padding: 10px 25px;
-    border: 1px solid #ff7a59;
+    border: 0 solid #ff7a59;
     font-size: 15px;
     display: block;
     margin-top: 30px;
     margin-left: 65px;
+}
+
+#CMR button:hover {
+    background-color: rgba(255,122,89,0.8)
 }
 
 #CMR-text {
@@ -318,9 +339,13 @@ main {
     background-color: #ff7a59;
     border-radius: 3px;
     padding: 10px 25px;
-    border: 1px solid #ff7a59;
+    border: 0 solid #ff7a59;
     font-size: 15px;
     margin-top: 20px;
+}
+
+#marketing button:hover, #sales button:hover, #service button:hover {
+    background-color: rgba(255,122,89,0.8)
 }
 
 #container-part2 {
@@ -469,7 +494,7 @@ h2 span {
 }
 
 #startgrowing-text button {
-    border: 1px solid #ff7a59;
+    border: 0 solid #ff7a59;
     background-color: #ff7a59;
     color: white;
     padding: 25px 35px;
@@ -477,6 +502,10 @@ h2 span {
     font-size: 17px;
     font-weight: 600;
     margin-bottom: 20px;
+}
+
+#startgrowing-text button:hover {
+    background-color: rgba(255,122,89,0.8)
 }
 
 #startgrowing-img {
@@ -492,7 +521,7 @@ h2 span {
 footer {
     background-color: #33475b;
     width: 100%;
-    height: 500px;
+    padding-bottom: 30px;
 }
 
 #container-footer {
@@ -529,10 +558,75 @@ footer {
 
 .information button {
     margin-top: 15px;
-    border: 1px solid white;
+    border: 0 solid white;
     border-radius: 3px;
     padding: 10px 17px;
     color: #33475b;
     font-size: 12px;
     background-color: white;
+}
+
+.information button:hover {
+    background-color: rgba(203,214,226,0.8)
+}
+
+#icon {
+    margin-top: 13px;
+    margin-bottom: 60px;
+}
+
+#icon i {
+    color: #cbd6da;
+    margin-right: 23px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#icon i:hover {
+    color: #3cb8cc;
+}
+
+.languages {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+.languages a {
+    text-decoration: none;
+    color: #cbd6da;
+    padding: 15px;
+}
+
+footer a:hover {
+    color: #3cb8cc;
+}
+
+#container-footer hr {
+    color: #cbd6da;
+    margin-bottom: 30px;
+}
+
+#container-footer img {
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+#legal {
+    color: #cbd6da;
+    cursor: pointer;
+    float: right;
+}
+
+#legal span {
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+#legal span:hover {
+    color: #3cb8cc;
+}
+
+#container-footer p {
+    color: #cbd6da;
 }

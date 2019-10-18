@@ -55,25 +55,35 @@ header {
     cursor: pointer;
 }
 
-#dropdown-list {
+.dropdown-list {
     display: none;
     position: absolute;
     background-color: white;
     border: 1px solid #cbd6e2;
     z-index: 1;
+    margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 35px 0 rgba(0, 0, 0, 0.19);
 }
 
-#dropdown-list a:hover {
+.fa-caret-up {
+    position: absolute;
+    font-size: 50px;
+    top: -26px;
+    right: 9px;
+    color: white;
+}
+
+.dropdown-list a:hover {
     background-color: rgba(186,228,235,0.3);
 }
 
-#english:hover #dropdown-list {
+#english:hover .dropdown-list {
     display: block;
 }
 
-#dropdown-list a {
+.dropdown-list a {
     color:#33475b;
     padding: 10px 40px 10px 15px;
     text-decoration: none;
@@ -174,25 +184,15 @@ header {
     position: relative;
 }
 
-#dropdown-list {
-    display: none;
-    position: absolute;
-    background-color: white;
-    border: 1px solid #cbd6e2;
-    z-index: 1;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#dropdown-list a:hover {
+.dropdown-list a:hover {
     background-color: rgba(186,228,235,0.3);
 }
 
-#software:hover #dropdown-list, #resources:hover #dropdown-list, #partners:hover #dropdown-list, #about:hover #dropdown-list {
+#software:hover .dropdown-list, #resources:hover .dropdown-list, #partners:hover .dropdown-list, #about:hover .dropdown-list {
     display: block;
 }
 
-#dropdown-list a {
+.dropdown-list a {
     color:#33475b;
     padding: 10px 40px 10px 15px;
     text-decoration: none;
@@ -631,13 +631,59 @@ h2 span {
 
 /*** Support chat ***/
 
+#message-support {
+    position: fixed;
+    width: 237px;
+    bottom: 100px;
+    right: 20px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 30px 15px 15px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 35px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+#message-support img{
+    height: 50px;
+    position: absolute;
+    top: -30px;
+    right: 90px;
+}
+
+.fa-times {
+    font-size: 22px;
+    color: #7c98b6;
+    position: absolute;
+    right: 8px;
+    top: 10px;
+}
+
+#message-support p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+#message-support:hover {
+    visibility: hidden;
+}
+
+.fa-caret-down {
+    font-size: 90px;
+    color: white;
+    position: fixed;
+    bottom: 63px;
+    right: 23px;
+}
+
 #support-chat {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #7c98b6;
+    background-color: rgb(66, 91, 118);
     border-radius: 30px;
     cursor: pointer;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 #support-chat i {

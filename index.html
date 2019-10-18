@@ -15,7 +15,16 @@
                 <div id="first-navbar" class="clearfix">
                     <div class="first-navbar-left">
                         <ul>
-                            <li id="english"><i class="fas fa-globe"></i>&nbsp&nbsp&nbsp English&nbsp&nbsp&nbsp <i class="fas fa-sort-down"></i></li>
+                            <li id="english"><i class="fas fa-globe"></i>&nbsp&nbsp&nbsp English&nbsp&nbsp&nbsp <i class="fas fa-sort-down"></i>
+                                <div id="dropdown-list">
+                                    <a href="#">日本語</a>
+                                    <a href="#">Deutsch</a>
+                                    <a href="#">English</a>
+                                    <a href="#">Espa&ntilde;ol</a>
+                                    <a href="#">Portogu&ecirc;s</a>
+                                    <a href="#">Fran&ccedil;ais</a>
+                                </div>
+                            </li>
                             <li id="contact-us">Contact Us</li>
                         </ul>
                     </div>
@@ -34,19 +43,33 @@
                     </div>
                     <div id="second-navbar-right">
                         <ul>
-                            <li>
-                                <a href="#">Software&nbsp&nbsp&nbsp <i class="fas fa-sort-down"></i></a>
+                            <li id="software">
+                                <span>Software&nbsp&nbsp&nbsp <i class="fas fa-sort-down"></i></span>
+                                <div id="dropdown-list">
+                                    <a href="#">Powered</a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">Pricing</a></li>
-                            <li>
-                                <a href="#">Resources&nbsp&nbsp&nbsp <i class="fas fa-sort-down"></i></a>
+                                <span href="#">Pricing</span>
                             </li>
-                            <li>
-                                <a href="#">Partners&nbsp&nbsp&nbsp <i class="fas fa-sort-down"></i></a>
+                            <li id="resources">
+                                <span href="#">Resources&nbsp&nbsp&nbsp <i class="fas fa-sort-down"></i>
+                                </span>
+                                <div id="dropdown-list">
+                                    <a href="#">by</a>
+                                </div>
                             </li>
-                            <li>
-                                <a href="#">About&nbsp&nbsp&nbsp <i class="fas fa-sort-down"></i></a>
+                            <li id="partners">
+                                <span href="#">Partners&nbsp&nbsp&nbsp <i class="fas fa-sort-down"></i></span>
+                                <div id="dropdown-list">
+                                    <a href="#">Salvatore</a>
+                                </div>
+                            </li>
+                            <li id="about">
+                                <span href="#">About&nbsp&nbsp&nbsp <i class="fas fa-sort-down"></i></span>
+                                <div id="dropdown-list">
+                                    <a href="#">Lo&nbspMonaco</a>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -225,14 +248,30 @@
                         </p>
                     </div>
                     <div class="sponsor-image" class="clearfix">
-                        <img id="atlassian"src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Atlassian-horizontal-blue@2x.png" alt="atlassian">
-                        <img id="doordash"src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/doordash_owler_20181011_194113_original@2x.png" alt="doordash">
-                        <img id="g2crowd"src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/g2crowd-logo@2x.png" alt="g2crowd">
-                        <img id="purple"src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/purple-logo@2x.png" alt="purple">
-                        <img id="subaro"src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Subaru_Logo_v2_186x63@2x.png" alt="subaro">
-                        <img id="wistia"src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Wistia_logo@2x.png" alt="wistia">
-                        <img id="classpass"src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Classpass-logo@2x.png" alt="classpass">
-                        <img id="vmware"src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/VMware_logo_gry_RGB_300dpi@2x.png" alt="vmware">
+                        <div class="container-sponsor-img atlassian clearfix">
+                            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Atlassian-horizontal-blue@2x.png" alt="atlassian">
+                        </div>
+                        <div class="container-sponsor-img doordash clearfix">
+                            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/doordash_owler_20181011_194113_original@2x.png" alt="doordash">
+                        </div>
+                        <div class="container-sponsor-img g2crowd clearfix">
+                            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/g2crowd-logo@2x.png" alt="g2crowd">
+                        </div>
+                        <div class="container-sponsor-img purple clearfix">
+                            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/purple-logo@2x.png" alt="purple">
+                        </div>
+                        <div class="container-sponsor-img subaro clearfix">
+                            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Subaru_Logo_v2_186x63@2x.png" alt="subaro">
+                        </div>
+                        <div class="container-sponsor-img wistia clearfix">
+                            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Wistia_logo@2x.png" alt="wistia">
+                        </div>
+                        <div class="container-sponsor-img classpass clearfix">
+                            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Classpass-logo@2x.png" alt="classpass">
+                        </div>
+                        <div class="container-sponsor-img vmware clearfix">
+                            <img  src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/VMware_logo_gry_RGB_300dpi@2x.png" alt="vmware">
+                        </div>
                     </div>
                 </div>
 <!-- Fourth content -->
@@ -290,7 +329,7 @@
                     <span><a href="#">Join a Local User Group</a></span>
                     <span><a href="#">Get a Free Website Report</a></span>
                     <span><a href="#">HubSpot Templates</a></span>
-                    <span><a href="#">Free Tools & Generators <i class="fas fa-sort-down"></i></a></span>
+                    <span>Free Tools & Generators <i class="fas fa-sort-down"></i></span>
                     <button>Contact HubSpot Support</button>
                     <div id="icon">
                         <i class="fab fa-facebook-f"></i>
@@ -309,7 +348,6 @@
                     <span><a href="#">Portogu&ecirc;s</a></span>
                     <span><a href="#">Fran&ccedil;ais</a></span>
                 </div>
-                <hr>
                 <img src="https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_gray.svg" alt="logo">
                 <section id="legal">
                     <span>Legal Stuff</span>

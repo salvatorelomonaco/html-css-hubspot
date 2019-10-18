@@ -28,6 +28,7 @@ header {
     border-bottom: 1px solid #cbd6e2;
     width: 100%;
     position: fixed;
+    z-index: 2;
 }
 
 #first-navbar {
@@ -50,6 +51,33 @@ header {
 #english {
     padding: 2px 30px 0 0;
     border-right: 2px  solid #cbd6e2;
+    position: relative;
+    cursor: pointer;
+}
+
+#dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #cbd6e2;
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#dropdown-list a:hover {
+    background-color: rgba(186,228,235,0.3);
+}
+
+#english:hover #dropdown-list {
+    display: block;
+}
+
+#dropdown-list a {
+    color:#33475b;
+    padding: 10px 40px 10px 15px;
+    text-decoration: none;
+    display: block;
 }
 
 .fa-sort-down {
@@ -59,6 +87,7 @@ header {
 
 #contact-us {
     padding-left: 30px;
+    cursor: pointer;
 }
 
 .first-navbar-right {
@@ -115,11 +144,12 @@ header {
 
 #logo {
     float:left;
-    padding: 20px 0 20px 0;
+    padding: 24px 0 20px 0;
 }
 
 #logo img {
-    height: 35px;
+    height: 32px;
+    cursor: pointer;
 }
 
 #second-navbar-right {
@@ -129,14 +159,44 @@ header {
 #second-navbar-right ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 28px 20px 28px 20px;
+    padding: 25px 20px 32px 20px;
 }
 
-#second-navbar-right ul li a {
+#second-navbar-right ul li span {
     text-decoration: none;
     color: #33475b;
     font-size: 16px;
     font-weight: bolder;
+    cursor: pointer;
+}
+
+#software, #resources, #partners, #about {
+    position: relative;
+}
+
+#dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #cbd6e2;
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#dropdown-list a:hover {
+    background-color: rgba(186,228,235,0.3);
+}
+
+#software:hover #dropdown-list, #resources:hover #dropdown-list, #partners:hover #dropdown-list, #about:hover #dropdown-list {
+    display: block;
+}
+
+#dropdown-list a {
+    color:#33475b;
+    padding: 10px 40px 10px 15px;
+    text-decoration: none;
+    display: block;
 }
 
 /*** Third bar ***/
@@ -165,6 +225,10 @@ header {
     border: 0 solid white;
     font-weight: bold;
     color: #33475b;
+}
+
+#container-third-bar button:hover {
+    background-color: rgba(255,255,255,0.8);
 }
 
 /*** Jumbotron ***/
@@ -359,7 +423,7 @@ main {
 #marketing hr, #sales hr, #service hr {
     margin-top: 25px;
     margin-bottom: 25px;
-    color: #33475b;
+    border: 1px solid #f5f8fa;
 }
 
 .container-part1 h5 {
@@ -500,24 +564,19 @@ h2 span {
 .sponsor-image {
     width: 70%;
     float: right;
-    padding-left: 70px;
+    padding-left: 80px;
 }
 
-.sponsor-image img {
-    margin-bottom: 30px;
-    padding-left: 34px;
+.container-sponsor-img {
+    width: 25%;
+    float: left;
+    padding: 15px;
 }
 
-#atlassian, #doordash, #wistia {
-    height: 15px;
-}
-
-#g2crowd, #purple, #subaro, #vmware {
-    height: 30px;
-}
-
-#classpass {
+.container-sponsor-img img {
     height: 50px;
+    width: 100%;
+    object-fit: contain;
 }
 
 /*** Fourth content ***/
@@ -610,6 +669,8 @@ footer {
 
 .information span {
     display: block;
+    cursor: pointer;
+    font-size: 15px;
 }
 
 .information h5 {
@@ -619,7 +680,6 @@ footer {
 .information a {
     text-decoration: none;
     color: #cbd6da;
-    font-size: 15px;
 }
 
 .information .fa-sort-down {
@@ -661,6 +721,8 @@ footer {
     text-align: center;
     font-size: 17px;
     margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #cbd6da;
 }
 
 .languages a {

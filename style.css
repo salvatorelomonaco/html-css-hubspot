@@ -12,6 +12,12 @@ body {
 
 button {
     cursor: pointer;
+    opacity: 1;
+    transition: 0.4s;
+}
+
+button:hover{
+    opacity: 0.9;
 }
 
 /*** Header ***/
@@ -49,7 +55,7 @@ header {
 }
 
 #english {
-    padding: 2px 30px 0 0;
+    padding: 2px 30px 10px 0;
     border-right: 2px  solid #cbd6e2;
     position: relative;
     cursor: pointer;
@@ -61,7 +67,7 @@ header {
     background-color: white;
     border: 1px solid #cbd6e2;
     z-index: 1;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 35px 0 rgba(0, 0, 0, 0.19);
@@ -327,6 +333,7 @@ main {
     padding: 30px 90px;
     text-align: left;
     display: block;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.1), 0px 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 #CMR img {
@@ -383,6 +390,7 @@ main {
     display: inline-block;
     padding: 27px;
     border-radius: 3px;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.1), 0px 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 #sales {
@@ -393,6 +401,7 @@ main {
     display: inline-block;
     padding: 27px;
     border-radius: 3px;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.1), 0px 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 #service {
@@ -401,6 +410,7 @@ main {
     display: inline-block;
     padding: 27px;
     border-radius: 3px;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.1), 0px 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 #marketing img, #sales img, #service img {
